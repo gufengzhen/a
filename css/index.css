@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#order {
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   overflow: hidden;
+  /*position:relative ;*/
+}
+#order .line {
+   display: inline-block;
+   width: 500px;
+   border-top: 1px solid #ccc ;
+}
+#order .txt {
+   color: #686868;
+   vertical-align: middle;
+}
+#order button{
+	width: 100px;
+	height: 40px;
+	border: 1px solid #3717f9;
+	border-radius:10px ;
+	color: #3717f9;
+	background: #fff;
+	outline: none;
+	
+	position: absolute;
+	top: 48px;
+	right: 110px;
+}
+#order button a{
+	text-decoration: none;
+}
+#app{
+	width: 1143px;
+	height: 300px;
+	margin: 0 auto;
+	/*background: red;*/
+	margin-top: 86px;
+}
+#app input{
+	width: 1141px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	
+	
+}
+textarea{
+	width: 1143px;
+	
+	/*border: 0px;*/
+	/*outline: none;*/
+	/*overflow: hidden;*/
+	float:right;
+	/*resize: none;*/
+	/*background: deepskyblue;*/
+	margin-top: 19px;
+	font-size: 20px;
+	background: lightgray;
+	
+}
+#app button{
+    width: 1143px;
+    height: 40px;
+    margin-top: 16px;
+    background: blue;	
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+}
+#zui ul li{
+	list-style: none;
+	overflow: hidden;
+	margin-top: 30px;
+	border-bottom: 2px solid greenyellow;
+}
+#zui ul li button{
+	float: right;
+	width: 80px;
+	height: 20px;
+}
+#zui{
+	
+	width: 1143px;
+	margin: 0 auto;
+	
+}
+.ld{
+    background: #FFFFFF;
+
+}
+#zui ul li h4{
+	margin-bottom: 20px;
+}
+#zui #edf{
+	float: left;
+	width: 100px;
+	height: 70px;
+	
+}
+#zui #ase{
+	/*background: red;*/
+	width: 1043px;
+	float: right;
+	
+}
+#zui #ase textarea{
+     /*width: 1043px;
+*/
+    width: 100%;
+}
+#zui button{
+   
+  margin-top: 20px;
+}
+#zui span{
+
+   display: block;
+   width: 40px;
+   height: 30px;
+   
+     padding-top: 20px;
+}
+/*#zui #ase h4{
+	 overflow: hidden;
+	 white-space: nowrap;
+	 text-overflow:ellipsis;
+	 这也很重要
+}*/

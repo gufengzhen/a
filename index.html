@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div id="order">
+              	<span class="line"></span>
+   	            <span class="txt">NotesApp_Vue.js</span>
+             	<span class="line"></span>
+             	<button><a href="#"  @click="change">添加笔记</a></button>
+        </div>
+        <div id="app"  v-show="ok">
+        	<input type="text" value="请输入文件名字"  v-model="message"/>
+            <textarea  v-model="sdfg" rows="5" id="ser">
+            	
+            </textarea> 
+             <button type="submit" @click="dc(index)">提交</button>
+             <button type="submit" @click="chang">返回首页</button>
+        </div>
+        <div id="zui">
+        	<ul>
+        		<li  v-for="(se,index) in ses">
+        			<div id="edf">
+        				{{se.cvb}}
+        				
+        			</div>
+        			
+        			<div id="ase">
+        				<h4  id="dfg">{{se.messages }}</h4>
+        				
+        			     <textarea  rows="5" class="ld"  v-model="se.sdfgs"  id="ser">
+        			     
+        			     
+        			     </textarea>
+        		      <span>{{se.sdfgs.length}}字</span>
+        		      <button @click="fun(index)"> 删除</button>
+        			</div>
+        			
+        		</li>
+        		
+        	</ul>
+        	<div class="w"  v-if="!ses.length">
+        	    <h1>当前没有笔记，请新建笔记</h1>
+             </div>
+        </div>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+        <script src="https://cdn.bootcss.com/autosize.js/4.0.2/autosize.min.js"></script>
+        <script type="text/javascript" src="js/index.js"> </script>
+        
+        
+        	
+       
+	</body>
+</html>
